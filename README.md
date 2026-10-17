@@ -1,5 +1,7 @@
 # Übertragbarkeit: Gilt die Wirkung auch in einer anderen Standort-Gruppe? – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-uebertragbarkeit-demo.streamlit.app/)**
+
 Zwölftes Stück der Linie **Kausale Diagramme und Adjustierung** in der „Konzepte“-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) (Operations Research und Machine Learning). Nachfolger von [sensitivitaet-demo](https://github.com/sebastian-hanisch/sensitivitaet-demo): Die Stücke davor betrachten **eine** Gruppe. Hier gibt es eine **Quelle** mit Messungen und eine **Zielgruppe**, in der der Faktor eingeführt werden soll: Wann gilt die Wirkung dort, und wann braucht es neue Daten?
 
 ## Kernfrage
@@ -101,4 +103,4 @@ Streamlit Cloud: Python 3.12.
 
 Gebaut mit Streamlit, Plotly, numpy, pandas und fpdf2.
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Kausale Diagramme: von Konfundierung bis Wahl](https://sebastianhanisch.net/konzepte-kausale-diagramme.html).
