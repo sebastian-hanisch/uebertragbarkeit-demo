@@ -106,7 +106,7 @@ st.markdown(
     """
 **Gilt die Wirkung auch woanders?** Dies ist das zwölfte Stück der Linie **Kausale Diagramme und Adjustierung**. Die Stücke davor haben **eine** Gruppe von Standorten betrachtet; hier gibt es eine **Quelle** mit Messungen
 und eine **Zielgruppe**, in der der Faktor eingeführt werden soll. Eine Wirkung gilt dort, wenn sich beide Gruppen nur in dem unterscheiden, was man messen kann: Dann genügt es, die Wirkung der Quelle über die Verteilung
-im Ziel neu zu mitteln. Unterscheidet sich der **Mechanismus** selbst, hilft keine Rechnung. Ein **Selektionsdiagramm** sagt, welcher Fall vorliegt.
+im Ziel neu zu mitteln. Unterscheidet sich der **Mechanismus** selbst, hilft keine Rechnung aus den Quelldaten. Ein **Selektionsdiagramm** sagt, welcher Fall vorliegt.
 
 Weiter unten: das **Selektionsdiagramm zum Bauen**, vier Experimente (**🔬**), **🚧 Wo die Annahmen enden** und der Expander **📐 Mathematische Formulierung**.
 """
@@ -273,8 +273,8 @@ st.markdown(
 | Annahme | Was passiert, wenn sie verletzt ist | Wer setzt an |
 |---|---|---|
 | **Das Selektionsdiagramm ist bekannt** | Wo S wirkt, ist eine Annahme über die Gruppen; ein falsches Diagramm gibt ein sicheres, aber falsches Urteil. | Wie falsch darf das Diagramm sein? |
-| **Z ist in beiden Gruppen gemessen** | Ohne Z im Ziel bleibt nur die naive Übertragung (Experiment 1). | nicht gebaut |
-| **Der Mechanismus ist gleich** | Eine unbeobachtete Zusatzwirkung im Ziel verfälscht die Übertragung um genau ihre Größe; eine kleine Zielstudie bemerkt es selten (Experiment 2). | Sensitivität und Falsifikation |
+| **Z ist in beiden Gruppen gemessen** | Ohne Z im Ziel und ohne bekannte Dichte bleibt nur die naive Übertragung (Experiment 1). | nicht gebaut |
+| **Der Mechanismus ist gleich** | Eine unbeobachtete Zusatzwirkung im Ziel verfälscht die Übertragung um genau ihre Größe; eine kleine Zielstudie bemerkt es oft nicht (60 Standorte: bei γ = 1 in 16 % der Läufe, Experiment 2). | Sensitivität und Falsifikation |
 | **Die Gruppen überlappen** | Bei geringer Überlappung schrumpft die effektive Stichprobe der Gewichte wie exp(−Δ²) (Experiment 3). | nicht gebaut |
 | **Die Form der Wirkungsfunktion ist bekannt** | Ein zu einfaches Modell extrapoliert verzerrt, ein flexibles streut (Experiment 3). | Schätzen (Stück 6) |
 | **Alle Größen sind beobachtet** | Verborgene Größen und S-Pfeile in verborgene Knoten sind nicht gebaut. | Wann geht es gar nicht? |
